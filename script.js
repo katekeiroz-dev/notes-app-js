@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 const addBtn = document.getElementById('add')
-const notesContainer = document.getElementById('notes-container') // Create a specific container
+const notesContainer = document.getElementById('notes-container') 
 const notes = JSON.parse(localStorage.getItem('notes')) || []
 
 if (notes.length > 0) {
